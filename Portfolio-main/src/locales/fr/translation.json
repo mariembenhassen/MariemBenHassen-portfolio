@@ -4,120 +4,48 @@
     "about": "À propos",
     "projects": "Projets",
     "contact": "Contact",
-    "cv": "Télécharger CV"
+    "cv": "Télécharger le CV"
   },
   "welcome": {
     "name": "Ben Hassen Mariem",
-    "title": "Développeur Web et Mobile | Spécialiste de l'IA | Étudiant en Data Science"
+    "title": "Développeuse Web & Mobile | Spécialiste IA | Étudiante en Science des Données"
   },
   "about": {
-    "welcome": "Bienvenue ! 😊",
-    "title": "Je suis étudiant en informatique et étudiant en master de Data Science",
-    "description1": "Actuellement, je suis étudiant en dernière année d'informatique à l'École Nationale d'Informatique (ENSI) et je poursuis un master en Data Science. Ma passion réside dans",
-    "highlight1": "Transformer des idées en réalité",
+    "welcome": "Salut ! 😊",
+    "title": "Je suis étudiante en informatique et en Master en Science des Données",
+    "description1": "Actuellement, je suis étudiante en dernière année d'informatique à l'École Nationale des Sciences de l'Informatique (ENSI) et je poursuis un Master en Science des Données. Ma passion réside dans",
+    "highlight1": "la transformation des idées en réalité",
     "description2": "J'adore apprendre de nouvelles choses et",
-    "highlight2": "Collaborer sur des solutions créatives",
-    "description3": "Tout en plongeant dans des défis réels et en perfectionnant mes compétences dans divers langages de programmation.",
+    "highlight2": "collaborer sur des solutions créatives",
+    "description3": "en m'attaquant aux défis du monde réel et en affinant mes compétences dans divers langages de programmation.",
     "highlight3": "Langages de programmation",
-    "description4": "De Java et Python à Dart et JavaScript, j'apprécie maîtriser de nouvelles technologies et développer des solutions innovantes.",
-    "description5": "En dehors de la programmation, je suis joueur dans l'âme, j'aime partager des blagues et j'apprécie les petites choses comme la nature et les longues promenades. 🌿🎮✨",
+    "description4": "De Java et Python à Dart et JavaScript, j'aime maîtriser de nouvelles technologies et développer des solutions innovantes.",
+    "description5": "En dehors du codage, je suis passionnée de jeux vidéo, j'aime partager des mèmes et j'apprécie les petites choses comme la nature et les longues promenades. 🌿🎮✨",
     "view-portfolio": "Voir le portfolio"
   },
   "projects": {
-    "header": "Voir mon travail",
+    "header": "Découvrez mon travail",
     "title": "Projets",
-    "view-project": "Voir le Travail",
+    "view-project": "Voir le projet",
     "view-code": "Voir le code",
     "view-site": "Voir le site",
-    "go-back": "Retourner",
+    "go-back": "Retour",
     "project-details": [
       {
-        "title": "Tunisian Learning",
-        "description": "Votre vision est notre responsabilité",
+        "title": "Tunisia Learning",
+        "description": "Votre vision, notre responsabilité",
         "image": "/projectImages/tunisialearninglogo.jpg",
-        "image2": "/projectImages/loginscreen.jpg",
-        "image3": "/projectImages/routes3.png",
-        "body": "Une plateforme éducative mobile conçue pour des établissements privés, développée durant mon stage chez Delta Web IT. Construite avec Flutter, PHP et MySQL, cette plateforme favorise la communication et l'interaction avec des fonctionnalités telles que les messages interactifs, le partage de devoirs et la planification de cours. Elle offre une solution complète pour gérer efficacement les activités académiques, en faisant un outil précieux pour les élèves et les enseignants.",
-        "technologies": [
-          "Flutter",
-          "PHP",
-          "MySQL"
-        ],
-        "github": "https://github.com/mariembenhassen/Tunisia-Learning",
-        "deployed": "",
-        "bgcolor": "var(--hl2-color)",
-        "id": "1"
+        "body": "Une plateforme éducative mobile pour les institutions privées, développée lors de mon stage chez Delta Web IT Company. Utilise Flutter, PHP, et MySQL pour améliorer la communication et l'engagement avec des fonctionnalités comme la messagerie interactive, le partage des devoirs, et la gestion des cours.",
+        "technologies": ["Flutter", "PHP", "MySQL"],
+        "github": "https://github.com/mariembenhassen/Tunisia-Learning"
       },
       {
-        "title": "Tunis Sport",
-        "description": "Plateforme de commerce électronique",
+        "title": "Tounsi Sports",
+        "description": "Plateforme e-commerce",
         "image": "/projectImages/Capture d’écran 2024-10-22 231417.jpg",
-        "image2": "/projectImages/esouq-desc.png",
-        "image3": "/projectImages/weather3.png",
         "technologies": ["Angular", "Spring-Boot", "MySql"],
-        "body": "Une plateforme de commerce électronique pour les passionnés de sport, développée durant mon stage à l'agence Via Web. Construite avec Angular et Spring Boot, elle comprend des listes de produits conviviales, un panier d'achat et un tableau analytique. La plateforme comprend des fonctions pour les avis clients, les questions fréquentes et le suivi des commandes, offrant ainsi une expérience d'achat fluide et efficace.",
-        "github": "https://github.com/codeTun/e-souq",
-        "deployed": "",
-        "bgcolor": "var(--hl-color)",
-        "id": "2"
-      },
-      {
-        "title": "Emergency MedLink",
-        "description": "Plateforme médicale",
-        "image": "/projectImages/meditechbg.jpg",
-        "image2": "/projectImages/Capture d’écran 2024-10-22 223354.jpg",
-        "image3": "/projectImages/meditech.png",
-        "technologies": ["Flutter", "Node-js", "Neo4j", "Python", "C++"],
-        "body": "Emergency MedLink est une application dynamique de bureau conçue pour aider les hôpitaux pendant les crises ou les pénuries de personnel. Elle fournit des recommandations personnalisées pour les professionnels de la santé essentiels en fonction des dossiers médicaux des patients. Ce projet a été supervisé par le professeur Saïb Yamine et validé à l'École Nationale d'Informatique (ENSI), assurant sa solidité et sa pertinence dans des scénarios de santé réels.",
-        "github": "https://github.com/mariembenhassen/MedicalApp-Desktop",
-        "deployed": "",
-        "bgcolor": "#6c4bf4",
-        "id": "3"
-      },
-      {
-        "title": "IEEE Wie",
-        "description": "Pour un projet de collège",
-        "body": "IEEE WIE : Autonomisation des élèves et des enseignants du primaire pour le succès. IEEE WIE n'est pas seulement une plateforme, c'est un outil de transformation pour l'éducation primaire, conçu pour autonomiser les élèves et les enseignants grâce à des ressources innovantes et des outils de collaboration. Pour les enseignants : Avec IEEE WIE, les éducateurs ont accès à une suite complète d'outils de gestion de classe, permettant une planification de cours fluide, un suivi des devoirs et une évaluation des élèves. Notre plateforme facilite une communication sécurisée entre les enseignants, les élèves et les parents, favorisant la collaboration et l'engagement dans le processus d'apprentissage. Pour les élèves : IEEE WIE offre aux élèves du primaire une expérience d'apprentissage interactive inédite. Grâce à notre plateforme, les élèves peuvent explorer des ressources éducatives dynamiques, participer à des activités engageantes et recevoir des retours personnalisés pour soutenir leur croissance académique. Avec IEEE WIE, l'apprentissage devient un voyage passionnant de découverte et de réussite. Les principales caractéristiques d'IEEE WIE incluent : Gestion complète de la classe : Organisez les leçons, suivez les devoirs et surveillez les progrès des élèves avec facilité. Canaux de communication sécurisés : Favorisez la collaboration et la communication entre les enseignants, les élèves et les parents dans un environnement sûr et sécurisé. Ressources d'apprentissage interactives : Engagez les élèves avec des leçons interactives, des jeux éducatifs et des contenus multimédias adaptés à leurs intérêts et styles d'apprentissage. Parcours d'apprentissage personnalisés : Adaptez l'instruction pour répondre aux besoins et capacités individuels de chaque élève, en offrant un soutien ciblé et des opportunités d'enrichissement.",
-        "image": "/projectImages/Student.png",
-        "image2": "/projectImages/WIE-Logo.png",
-        "image3": "/projectImages/team3.png",
-        "technologies": ["HTML", "SCSS", "JavaScript"],
-        "github": "https://github.com/codeTun/IEEE",
-        "deployed": "",
-        "bgcolor": "#f85781",
-        "id": "4"
-      },
-      {
-        "title": "Leoni OTMS",
-        "description": "C'est une plateforme d'appel d'offres pour le secteur privé, c'est mon projet de fin d'études à l'université ISIMM",
-        "body": "Le processus d'appel d'offres constitue un élément essentiel dans l'acquisition de biens et de services commerciaux. Traditionnellement géré par des soumissions papier ou des e-mails, ce processus manuel souffre d'inefficacités et manque de traçabilité, impactant la sélection appropriée des fournisseurs. La digitalisation de ce processus émerge comme une innovation, offrant une plateforme unifiée où les entreprises peuvent publier des appels d'offres et les fournisseurs peuvent postuler. En initiant notre projet de fin d'études, nous nous concentrons sur le développement d'une plateforme pour digitaliser le processus d'appel d'offres. Notre objectif est de créer une solution intégrée qui améliore la transparence, la traçabilité et l'efficacité. Cette plateforme centralisera les soumissions et fournira des outils analytiques pour évaluer objectivement et de manière complète les offres, réduisant les erreurs humaines et optimisant la sélection des fournisseurs. Ainsi, notre projet vise à contribuer à une gestion plus rationalisée et équitable des appels d'offres, répondant aux besoins contemporains des entreprises et des fournisseurs. Structure du rapport : Étude préliminaire : Fournit un aperçu du contexte du projet, examine les solutions existantes et détaille notre propre solution et méthodologie. Initialisation du projet : Se concentre sur la phase pré-sprint, définissant les exigences fonctionnelles et non fonctionnelles, discutant des décisions technologiques et décrivant l'architecture de la plateforme. Réleases du projet : Décrit les réleases spécifiques du projet, couvrant les étapes de spécification, de conception et d'implémentation, ainsi que des résumés des principales conclusions et progrès à chaque phase.",
-        "image": "/projectImages/Leoni.png",
-        "image2": "/projectImages/Leoni-tender-call.jpg",
-        "image3": "/projectImages/team3.png",
-        "technologies": [
-          "Angular",
-          "NodeJs",
-          "Bootstrap",
-          "Springboot",
-          "Postgres"
-        ],
-        "github": "https://github.com/codeTun/",
-        "deployed": "",
-        "bgcolor": "#8900EE",
-        "id": "5"
-      },
-      {
-        "title": "Gaoua Gold",
-        "description": "C'est une entreprise d'exploitation aurifère au Burkina Faso",
-        "body": "Gaoua Gold est un projet de site web WordPress développé pour une société d'exploitation aurifère au Burkina Faso. Ce projet a consisté à créer une plateforme en ligne qui améliore la présence numérique de l'entreprise et optimise ses processus de communication. L'objectif principal était de construire un site web convivial et visuellement attrayant qui met en valeur les opérations, les services et les réalisations de Gaoua Gold. En exploitant WordPress, nous avons veillé à ce que le site soit entièrement responsive, offrant une expérience utilisateur fluide sur toutes les plateformes. Le design et la structure du site ont été soigneusement conçus pour refléter l'identité de la marque et fournir une navigation intuitive. En plus des fonctionnalités de base, nous avons intégré des outils spécifiques pour répondre aux besoins uniques de l'industrie minière. Cela inclut la gestion des publications d'actualités, une section de présentation des projets, et un système de contact optimisé pour faciliter les demandes de renseignements. Grâce à l'attention portée aux détails et à une compréhension approfondie des besoins de Gaoua Gold, le site a été lancé avec succès, renforçant la présence en ligne de l'entreprise et soutenant ses objectifs commerciaux. Ce projet représente une synergie parfaite entre technologie et design pour créer une solution numérique complète adaptée aux besoins d'une industrie exigeante.",
-        "image": "/projectImages/gaoua-gold.png",
-        "image2": "/projectImages/gaoua-info.jpg",
-        "image3": "/projectImages/team3.png",
-        "technologies": ["Wordpress", "CMS"],
-        "github": "https://github.com/codeTun/",
-        "deployed": "https://gaouagoldcompany.com/",
-        "bgcolor": "#FACD01",
-        "id": "6"
+        "body": "Une plateforme de commerce électronique pour les amateurs de sport, développée pendant mon stage chez Agence Via Web. Comprend une liste de produits intuitive, un panier, et un tableau de bord analytique.",
+        "github": "https://github.com/mariembenhassen/Commerce_App_Angular"
       }
     ]
   },
@@ -128,30 +56,24 @@
     "form": {
       "name": "Nom",
       "email": "Email",
-      "subject": "Sujet",
       "message": "Message",
-      "send": "Envoyer le Message",
-      "failed": "Réessayez",
+      "send": "Envoyer le message",
+      "failed": "Réessayer",
       "loading": "Veuillez patienter...",
       "success": "Message envoyé",
       "nameError": "Veuillez entrer votre nom",
       "emailError": "Veuillez entrer votre email",
-      "subjectError": "Veuillez entrer votre sujet",
       "messageError": "Veuillez entrer votre message"
     },
     "social": {
       "title": "Connectez-vous avec moi",
-      "description": "Cherchez à établir des connexions et à partager des perspectives avec des développeurs talentueux qui travaillent à créer un changement positif.",
-      "name": "Nom",
-      "loc": "Emplacement",
+      "description": "Je cherche à bâtir des liens et partager des perspectives avec des développeurs talentueux.",
       "location": "Tunisie",
-      "email": "iheblazhary@gmail.com",
-      "mail": "Courriel"
+      "email": "mariem.benhassen@ensi-uma.tn"
     }
   },
   "footer": {
-    "title": "Donnez une étoile à ce projet !",
-    "description": "Conçu et développé par Elazheri Iheb",
-    "rights": "Tous les points de vue et le travail sont les miens"
+    "description": "Conçu et développé par Ben Hassen Mariem",
+    "rights": ""
   }
 }
