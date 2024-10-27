@@ -3,7 +3,6 @@ const mysql = require('mysql2');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 5000;
 
 app.use(bodyParser.json()); // For parsing application/json
 
@@ -57,7 +56,5 @@ app.post('/api/contact', (req, res) => {
   });
 });
 
-// Start the server
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
-});
+// Remove app.listen() and export the app for serverless deployment
+module.exports = app;
