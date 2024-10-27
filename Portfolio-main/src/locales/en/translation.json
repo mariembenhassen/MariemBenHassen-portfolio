@@ -1,0 +1,146 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cv": "Download CV"
+  },
+  "welcome": {
+    "name": "Ben Hassen Mariem",
+    "title": "Web & Mobile Developer | AI Specialist | Data Science Student"
+  },
+  "about": {
+    "welcome": "Hey there! 😊",
+    "title": "I'm a Computer Science Student and a Master's Student in Data Science",
+    "description1": "Currently, I'm a final-year Computer Science student at the National School of Computer Science (ENSI) and pursuing a Master's in Data Science. My passion lies in",
+    "highlight1": "transforming ideas into reality",
+  "description2": "I love learning new things and",
+"highlight2": "collaborating on creative solutions",
+"description3": "while diving into real-world challenges and honing my skills in various programming languages.",
+"highlight3": "Programming Languages",
+"description4": "From Java and Python to Dart and JavaScript, I enjoy mastering new technologies and developing innovative solutions.",
+
+    "description5": "Beyond coding, I’m a gamer at heart, love sharing memes, and appreciate the little things like nature and long walks. 🌿🎮✨",
+    "view-portfolio": "View Portfolio"
+  },
+  "projects": {
+    "header": "View my work",
+    "title": "Projects",
+    "view-project": "View Work",
+
+    "view-code": "View Code",
+    "view-site": "View Site",
+    "go-back": "Go Back",
+    "project-details": [
+      {
+        "title": "Tunisia Learning",
+        "description": "Your vision our responsability",
+        "image": "/projectImages/tunisialearninglogo.jpg", 
+        "image2": "/projectImages/loginscreen.jpg",
+        "image3": "/projectImages/routes3.png",
+        "body": "A mobile educational platform tailored for private institutions, developed during my internship with Delta Web IT Company. Built using Flutter, PHP, and MySQL, this platform enhances communication and engagement with features like interactive messaging, homework sharing, and class scheduling. It provides an all-in-one solution for managing academic activities efficiently, making it an invaluable tool for both students and teachers.",
+        "technologies": [
+         "Flutter",
+         "PHP" ,
+         "MySQL"
+        ],
+        "github": "https://github.com/mariembenhassen/Tunisia-Learning",
+        "prototypeVideo": "/projectImages/prototypes/Tunisia Learning Prototype _ ‐ Réalisée avec Clipchamp (1).mp4",
+        "bgcolor": "var(--hl2-color)",
+        "id": "1"
+      },
+      {
+        "title": "Tounsi Sports",
+        "description": "E-commerce plateform",
+        "image": "/projectImages/Capture d’écran 2024-10-22 231417.jpg",
+        "image2": "/projectImages/esouq-desc.png",
+        "image3": "/projectImages/weather3.png",
+        "technologies": ["Angular", "Spring-Boot", "MySql"],
+        "body": "An eCommerce platform for sports lovers, developed during my internship at Agence Via Web. Built with Angular and Spring Boot, it features intuitive product listings, a shopping cart, and an analytics dashboard. The platform includes functionalities for customer reviews, FAQs, and order tracking, providing an easy and efficient shopping experience.",
+        "github": "https://github.com/mariembenhassen/Commerce_App_Angular",
+        "deployed": "",
+        "bgcolor": "var(--hl-color)",
+        "id": "2"
+      },
+      {
+        "title": "Emergency MedLink",
+        "description": "Medical Plateform", 
+        "image": "/projectImages/meditechbg.jpg",
+        "image2": "/projectImages/Capture d’écran 2024-10-22 223354.jpg",
+        "image3": "/projectImages/meditech.png",
+        "technologies": ["Flutter", "Node-js", "Neo4j", "Python" ,"C++"],
+        "body": "Emergency MedLink is a dynamic desktop application designed to assist hospitals during crises or staffing shortages. It provides tailored recommendations for essential medical personnel based on patients' medical records. This project was supervised by Professor Sayeb Yemna and validated at the National School of Computer Science (ENSI), ensuring its robustness and relevance in real-world healthcare scenarios.",
+        "github": "https://github.com/mariembenhassen/MedicalApp-Desktop",
+        "prototypeVideo": "/projectImages/prototypes/prototype emergency link.mp4",
+        "bgcolor": "#6c4bf4",
+        "id": "3"
+      },
+      {
+        "title": "TuniBatman",
+         "body":  "TuniBatman is a comprehensive web application developed during the Gotham Hackathon, focusing on public safety and emergency signaling. The platform empowers users by providing real-time emergency alerts and education on safety protocols, fostering a sense of community where individuals can act swiftly in times of need.Built using Angular, TuniBatman utilizes HTML for structuring the user interface, CSS for styling, and TypeScript for maintainable code. The application features a modular architecture that ensures a seamless user experience and integrates a real-time database for instant communication and data synchronization.The project aims to equip users with the tools and knowledge necessary to respond effectively to emergencies, turning every individual into a superhero within their community.",
+        "description": "During Gotham Hackathon competition",
+        "image": "/projectImages/OIP.jfif", 
+        "image2": "/projectImages/OIP.jfif",
+        "image3": "/projectImages/team3.png",
+        "technologies": ["Angular", "SpringBoot", "MySql"],
+      
+        "github": "",
+        "prototypeVideo": "/projectImages/prototypes/prototype TUNIBATMAN.mp4", 
+        "bgcolor": "#f85781",
+        "id": "4"
+      },
+      {
+        "title": "Find-your-doctor-Find-your-patient",
+        
+        "image": "/projectImages/prjt1.jfif",
+        "image2": "/projectImages/prjt2.jfif",
+       
+        "technologies": [
+          "Html/Css/JS",
+          "PHP/Mysql"
+          
+        ],
+        "body":"A platform designed to facilitate access to healthcare for individuals in rural areas, helping them connect with doctors for appointments or medical advice. This initiative also serves as a communication hub between charities, volunteers, and those in need. Developed during a hackathon at the Higher Institute of Informatics (ISI), our team successfully secured second place. The platform promotes streamlined interactions, ensuring that volunteer doctors and healthcare professionals can easily connect with underprivileged communities, addressing their healthcare needs efficiently.",
+        "github": "https://github.com/mariembenhassen/Find-your-doctor-Find-your-patient",
+          "prototypeVideo":"https://www.linkedin.com/feed/update/urn:li:activity:7161085938616401920/?originTrackingId=fUQlBXPpQh6oFz0BgsRDtw%3D%3D",
+        "deployed": "",
+        "bgcolor": "#8900EE",
+        "id": "5"
+      }
+    ]
+  },
+  "contact": {
+    "header": "Get in touch",
+    "title": "Contact",
+    "description": "Send a Message",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+    
+      "message": "Message",
+      "send": "Send Message",
+      "failed": "Try again ",
+      "loading": "Please Wait...",
+      "success": "Message Sent",
+      "nameError": "Please enter your name",
+      "emailError": "Please enter your email",
+      
+      "messageError": "Please enter your message"
+    },
+    "social": {
+      "title": "Connect With Me",
+      "description": "Looking to build connections and share perspectives with talented developers working to create positive change.",
+      "name": "Name",
+      "loc": "Location",
+      "location": "Tunisia",
+      "email": "mariem.benhassen@ensi-uma.tn",
+      "mail": "Email"
+    }
+  },
+  "footer": {
+    "title": "",
+    "description": "Designed and built by Ben Hassen Mariem",
+    "rights": ""
+  }
+}
