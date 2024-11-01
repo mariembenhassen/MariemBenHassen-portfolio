@@ -8,7 +8,7 @@
   },
   "welcome": {
     "name": "Ben Hassen Mariem",
-    "title": "Web & Mobile Developer | AI Specialist | Data Science Student"
+    "title": "Final-year Computer Science student at the National School of Computer Science (ENSI)"
   },
   "about": {
     "welcome": "Hey there! 😊",
@@ -46,7 +46,7 @@
          "MySQL"
         ],
         "github": "https://github.com/mariembenhassen/Tunisia-Learning",
-        "prototypeVideo": "/projectImages/prototypes/Tunisia Learning Prototype _ ‐ Réalisée avec Clipchamp (1).mp4",
+        "prototypeVideo": "",
         "bgcolor": "var(--hl2-color)",
         "id": "1"
       },

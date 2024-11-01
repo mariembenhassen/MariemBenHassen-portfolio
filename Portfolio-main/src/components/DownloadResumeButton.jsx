@@ -7,7 +7,7 @@ const DownloadResumeButton = () => {
 
   return (
     <div className="flex items-center justify-center mr-20">
-      <a href={resumeLink} download="Mariem Ben hassen CV.pdf">
+      <a href={resumeLink} download="MariemBenHassen.pdf">
         <Button
           gradientDuoTone="cyanToBlue"
           className="px-6 py-1 rounded-lg shadow-md transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-600 text-color-black "
